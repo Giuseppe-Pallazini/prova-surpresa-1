@@ -40,3 +40,37 @@ export function sorvete(gramas) {
 
     return total
 }
+
+
+export function abastecimento(capac, consumo, dist) {
+
+    if((dist / consumo) < capac)
+        return 1
+    
+    else if ((dist / consumo) > capac)
+        return 2
+}
+
+export function funcaoSalario(salario, bonus, desc) {
+
+    let totalbonus =  (salario * bonus) / 100
+    let a = (salario + totalbonus) - desc
+    return a;
+}
+
+export function funcaoFebre(temp) {
+    if(temp == 41) 
+        return 'Hipertermia'
+
+    if(temp >= 39.6 ) 
+        return 'Febre alta'
+
+    if(temp >= 37.6) 
+        return 'Febre'
+
+    if(temp >= 36) 
+        return 'Normal'
+
+    if(temp < 36) 
+        return 'Hipotermia'
+}
