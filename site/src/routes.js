@@ -6,6 +6,8 @@ import Sorvete from './sorvete'
 import Salario from './salario'
 import Paradas from './paradas'
 import Febre from './febre'
+import Cinema from './cinema'
+import Sit from './situacaoOrcamento'
 
 import App from './App.js'
 
@@ -20,6 +22,8 @@ export default function Index() {
                 <Route path='/salario' element={<Salario/>} />
                 <Route path='/paradas' element={<Paradas/>} />
                 <Route path='/febre' element={<Febre/>} />
+                <Route path='/cinema' element={<Cinema/>} />
+                <Route path='/situacao' element={<Sit/>} />
             </Routes>
         </BrowserRouter>
     )

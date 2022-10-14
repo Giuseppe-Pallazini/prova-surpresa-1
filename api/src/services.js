@@ -74,3 +74,37 @@ export function funcaoFebre(temp) {
     if(temp < 36) 
         return 'Hipotermia'
 }
+
+export function funcaoCinema(inteiras, meias, diaSemana, nacional) {
+    if (nacional == true) 
+        return (inteiras + meias) * 5
+    
+
+    else if(diaSemana == true) 
+        return (inteiras + meias) * 14.25
+    
+
+    else
+        return (inteiras * 28.5) + (meias * 14.25)
+}
+
+export function funcaoGastos(ganhos, gastos) {
+
+    let result = (gastos * 100) / ganhos 
+    
+    if (result > 100)
+        return 'Orçamento comprometido! Hora de rever seus gastos!'
+
+    else if (result > 80)
+       return 'Cuidado, seu orçamento pode ficar comprometido!'
+
+    else if (result > 50)
+        return 'Atenção, melhor conter os gastos!'
+
+    else if (result > 20)
+        return 'Muito bem, seus gastos não ultrapassam metade dos ganhos!'
+    
+    else if (result > 0)
+        return 'Parabéns, está gerenciando bem seu orçamento!'
+
+}

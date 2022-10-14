@@ -11,6 +11,8 @@ function App() {
          <Link to={'/paradas'}> Paradas </Link>
          <Link to={'/salario'}> Salario </Link>
          <Link to={'/febre'}> Febre </Link>
+         <Link to={'/cinema'}> Cinema </Link>
+         <Link to={'/situacao'}> Situação </Link>
 
     </div>
   );
