@@ -8,6 +8,7 @@ import Paradas from './paradas'
 import Febre from './febre'
 import Cinema from './cinema'
 import Sit from './situacaoOrcamento'
+import Cont from './contador'
 
 import App from './App.js'
 
@@ -24,6 +25,8 @@ export default function Index() {
                 <Route path='/febre' element={<Febre/>} />
                 <Route path='/cinema' element={<Cinema/>} />
                 <Route path='/situacao' element={<Sit/>} />
+                <Route path='/contador' element={<Cont/>} />
+
             </Routes>
         </BrowserRouter>
     )

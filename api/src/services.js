@@ -108,3 +108,11 @@ export function funcaoGastos(ganhos, gastos) {
         return 'Parabéns, está gerenciando bem seu orçamento!'
 
 }
+
+export function funcaoContador(inicio, fim) {
+    let a = [];
+    for (let i = inicio; i <= fim; i++) {
+        a = [...a,i];
+    }
+    return a;
+}

@@ -13,6 +13,7 @@ function App() {
          <Link to={'/febre'}> Febre </Link>
          <Link to={'/cinema'}> Cinema </Link>
          <Link to={'/situacao'}> Situação </Link>
+         <Link to={'/Contador'}> Contador </Link>
 
     </div>
   );

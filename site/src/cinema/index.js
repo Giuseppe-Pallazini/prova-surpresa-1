@@ -7,7 +7,7 @@ export default function Index() {
     const [meia, setMeia] = useState();
     const [dia, setDia] = useState(false);
     const [nacio, setNacio] = useState(false);
-    const [resposta, setResposta] = useState();
+    const [resposta, setResposta] = useState([]);
 
 
     async function cinema(){
