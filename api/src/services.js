@@ -116,3 +116,48 @@ export function funcaoContador(inicio, fim) {
     }
     return a;
 }
+
+export function caractere(qtd) {
+    
+    let x = [];
+    for(let i = 0; i <= qtd; i++) {
+        x = [...x, '*']
+    }
+    return x;
+}
+
+export function retangulo(base, altura) {
+    
+    let x = []
+    let y = []
+    let a = base * altura
+    for (let i =0; i < a; i++) {
+        x = [...x, '*']
+        y = [...x, '*']
+        console.log(x,y)
+    }
+    return x
+}
+
+export function funcaoCafe(capCafe, ml, estudantes) {
+    let calculo = estudantes * ml
+    let vlcap = capCafe
+
+    if(calculo > 1000) {
+        calculo = calculo / 1000;
+        for(let i = 0; calculo > capCafe; i++) {
+            cap = cap + vlcap
+            return cap
+        }
+        
+    }
+
+    if(calculo < 1000 && calculo >= 100) {
+        calculo = calculo / 100;
+        for(let i = 0; calculo > cap; i++) {
+            cap = cap + vlcap;
+            return cap
+        }
+    }
+
+}

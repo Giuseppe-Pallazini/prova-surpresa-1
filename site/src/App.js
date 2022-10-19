@@ -14,6 +14,9 @@ function App() {
          <Link to={'/cinema'}> Cinema </Link>
          <Link to={'/situacao'}> Situação </Link>
          <Link to={'/Contador'}> Contador </Link>
+         <Link to={'/cafe'}> Café </Link>
+         <Link to={'/caractere'}> Estrelinha </Link>
+         <Link to={'/retangulo'}> Retangulo </Link>
 
     </div>
   );

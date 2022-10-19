@@ -9,6 +9,9 @@ import Febre from './febre'
 import Cinema from './cinema'
 import Sit from './situacaoOrcamento'
 import Cont from './contador'
+import Cafe from './cafe'
+import Caractere from './caractere'
+import Retangulo from './retangulo'
 
 import App from './App.js'
 
@@ -26,6 +29,10 @@ export default function Index() {
                 <Route path='/cinema' element={<Cinema/>} />
                 <Route path='/situacao' element={<Sit/>} />
                 <Route path='/contador' element={<Cont/>} />
+                <Route path='/cafe' element={<Cafe/>} />
+                <Route path='/caractere' element={<Caractere/>} />
+                <Route path='/retangulo' element={<Retangulo/>} />
+
 
             </Routes>
         </BrowserRouter>
