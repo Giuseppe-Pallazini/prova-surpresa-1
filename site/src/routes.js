@@ -12,6 +12,7 @@ import Cont from './contador'
 import Cafe from './cafe'
 import Caractere from './caractere'
 import Retangulo from './retangulo'
+import Notas from './notas'
 
 import App from './App.js'
 
@@ -32,6 +33,7 @@ export default function Index() {
                 <Route path='/cafe' element={<Cafe/>} />
                 <Route path='/caractere' element={<Caractere/>} />
                 <Route path='/retangulo' element={<Retangulo/>} />
+                <Route path='/notas' element={<Notas/>} />
 
 
             </Routes>

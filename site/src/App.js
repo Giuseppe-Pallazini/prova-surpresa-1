@@ -17,6 +17,7 @@ function App() {
          <Link to={'/cafe'}> Café </Link>
          <Link to={'/caractere'}> Estrelinha </Link>
          <Link to={'/retangulo'}> Retangulo </Link>
+         <Link to={'/Notas'}> Notas </Link>
 
     </div>
   );
